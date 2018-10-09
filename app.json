@@ -1,0 +1,25 @@
+{
+  "name": "vote",
+  "description": "",
+  "scripts": {
+  },
+  "env": {
+    "FOLLOWANALYTICS_API_KEY": {
+      "required": true
+    },
+    "FOLLOWANALYTICS_API_TOKEN": {
+      "required": true
+    },
+    "FOLLOWANALYTICS_SOR_IDENTIFIER": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+    "followanalytics"
+  ],
+  "buildpacks": [
+
+  ]
+}
